@@ -11,7 +11,7 @@ namespace BlobTrigger_AzureFunction
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            string connectionString = "Data Source=N-20RJPF2CFK06\\SQLEXPRESS;Integrated Security=true;Database=FileUpload"; //"Data Source= Server name;Integrated Security=true;Database=DatabaseName"
+            string connectionString = "Database connection string"; //"Data Source= Server name;Integrated Security=true;Database=DatabaseName"
             builder.Services.AddDbContext<AppDbContext>(
                 options => SqlServerDbContextOptionsExtensions.UseSqlServer(options, connectionString));
         }

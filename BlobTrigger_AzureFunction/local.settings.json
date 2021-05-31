@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=newfilestorage;AccountKey=WYOLv7IR32zro3bJkmxvtU4qLDyio1pMen8q4ayllbTPnzOnlz0CONq7e0k2ynYeQTaH3bUpxUUZ51fsEgixuQ==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsStorage": "Connection String",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
 
   }  
